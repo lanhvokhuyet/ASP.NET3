@@ -1,0 +1,6 @@
+D:\ASP\WebApplication3\WebApplication3\bin\WebApplication3.dll.config
+D:\ASP\WebApplication3\WebApplication3\bin\WebApplication3.dll
+D:\ASP\WebApplication3\WebApplication3\bin\WebApplication3.pdb
+D:\ASP\WebApplication3\WebApplication3\obj\Debug\WebApplication3.csprojResolveAssemblyReference.cache
+D:\ASP\WebApplication3\WebApplication3\obj\Debug\WebApplication3.dll
+D:\ASP\WebApplication3\WebApplication3\obj\Debug\WebApplication3.pdb
