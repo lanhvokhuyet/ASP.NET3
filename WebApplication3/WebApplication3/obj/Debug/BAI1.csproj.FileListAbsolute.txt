@@ -1,0 +1,2 @@
+D:\github\ASP.NET3\WebApplication3\WebApplication3\obj\Debug\BAI1.csprojResolveAssemblyReference.cache
+D:\github\ASP.NET3\WebApplication3\WebApplication3\obj\Debug\WebApplication3.dll
