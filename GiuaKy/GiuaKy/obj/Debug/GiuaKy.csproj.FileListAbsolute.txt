@@ -1,0 +1,6 @@
+D:\ASP\GiuaKy\GiuaKy\bin\GiuaKy.dll.config
+D:\ASP\GiuaKy\GiuaKy\bin\GiuaKy.dll
+D:\ASP\GiuaKy\GiuaKy\bin\GiuaKy.pdb
+D:\ASP\GiuaKy\GiuaKy\obj\Debug\GiuaKy.csprojResolveAssemblyReference.cache
+D:\ASP\GiuaKy\GiuaKy\obj\Debug\GiuaKy.dll
+D:\ASP\GiuaKy\GiuaKy\obj\Debug\GiuaKy.pdb

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Web;
 using System.Web.UI;
@@ -19,8 +20,10 @@ namespace WebApplication3
         private void ReadComment()
         {
             string sfile = Server.MapPath(@"\") + "data.txt";
+            
             using(StreamReader reader=new StreamReader(sfile))
             {
+                
                 string snoidung = reader.ReadToEnd();
                 string[] delimiter = {"#END"};
                 string[] sArr = snoidung.Split(delimiter,
@@ -29,11 +32,11 @@ namespace WebApplication3
                 {
                     string stemp;
                     stemp = Regex.Replace(s, @"\r\n", @"<br/");
-                    string entry = string.Format("<tr><td colspan=\"2\">{0} </td></tr>".stemp);
-                    EntryComent.InterHtml += entry;
+                    string entry = string.Format("<tr><td colspan=\"2\">{0} </td></tr>",stemp);
+                    entryComent.InnerHtml += entry;
                 }
+
             }
-            throw new NotImplementedException();
         }
 
         protected void Btn_GoiND_Click(object sender, EventArgs e)
